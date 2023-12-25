@@ -1,0 +1,890 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+/* left contact details*/
+.main-h_top {
+    position: relative;
+    display: block;
+    background-color: rgba(35, 34, 34, 0.92);
+    z-index: 1;
+    height: 50px;
+  
+}
+
+.main-h_wrapper{
+    position: relative;
+    display: block;
+    padding: 0px 50px 0px;
+}
+.main-h_inner{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    z-index: 1;
+}
+
+.main-h_top-inner {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    z-index: 1;
+}
+.dropdown:hover .dropdown-menu{
+    display: block;
+    color: grey;
+    }
+    
+.main-h_left {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.main-h_contactlist{
+position: relative;
+display: flex;
+column-gap: 20px;
+padding-top: 10px;
+}
+
+.icon{
+position: relative;
+padding-right: 10px;
+}
+
+.text{
+    position: relative;
+    font-size: small;
+    color: white;
+}
+
+
+/*Right contact details*/
+.main-h_right {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+   
+}
+
+.main-h_social {
+    position: relative;
+    left: 100px;
+    display: flex;
+    column-gap: 30px;
+    align-items: center;
+    background-color: #232323;
+    padding: 13px 40px 13px;
+    margin-right: 30px;
+    height: 55px;
+    bottom: 10px;
+
+
+}
+
+.main-h_login-reg {
+    position: relative;
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    border-left: #232323;
+}
+
+.logo1{
+    width: 100px;
+    position: relative;
+    bottom: 20px;
+
+}
+/*Navbar*/
+.main-menu {
+    position: relative;
+    display: block;
+    z-index: 1;
+}
+
+.main-menu_wrapper {
+    position: relative;
+    display: block;
+    padding: 0px 60px 0px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 10px 60px 0px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+}
+
+.main-menu_wrapper {
+    position: relative;
+    display: block;
+    padding: 0px 60px 0px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 10px 60px 0px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+}
+
+.main-menu_left {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.main-menu_logo {
+    position: relative;
+    display: block;
+    bottom: 8px;
+    margin-right: 15px;
+    z-index: 1;
+    width: 220px; 
+    height: 120px; 
+    background-color: rgb(220, 45, 45); 
+   padding-left: 45px;
+   padding-top: 15px;
+}
+.nav{
+    position: relative;
+    bottom: 20px;
+    font-size: large;
+}
+/*main slider*/
+.ms_image{
+    position: relative;
+    bottom: 400px;
+    z-index: 0;
+    animation: slidereffect 4s ease-out 2s infinite normal forwards;
+    filter: brightness(30%);
+  }
+
+
+  .main-content{
+    position: relative;
+    bottom: 900px;
+    left: 150px;
+    color: white;
+  }
+
+.main-text{
+font-size: 70px;
+font-weight: bold;
+animation-name: text;
+animation-duration: 2s;
+animation-direction: normal;
+  }
+
+  @keyframes text{
+    0%{
+        transform: translateY(-50%);  
+    }
+    
+  }
+
+/*sector*/
+.sector{
+    position: relative;
+    bottom: 650px;
+}
+    .text1{
+        position: relative;
+        bottom: 110px;
+    }
+.sector-btn1{
+background-color: rgba(128, 128, 128, 0.278);
+padding: 20px;
+}
+.sector-btn1:hover{
+    background-color: #36a1b0 ;
+}
+.sector-btn2{
+    background-color: rgba(128, 128, 128, 0.278);
+    padding: 20px;
+    }
+    .sector-btn2:hover{
+        background-color: rgba(236, 217, 10, 0.76);
+    }
+    .sector-btn3{
+        background-color: rgba(128, 128, 128, 0.278);
+        padding: 20px;
+        }
+        .sector-btn3:hover{
+            background-color: rgb(170, 25, 25);
+        }
+.bor1{
+    border-width: 15px;
+    align-items: center;
+    width: 350px;
+    height: 350px;
+    text-align:center;
+    }
+.image1{
+    position: relative;
+    bottom: 100px;
+    border-radius: 50%;
+}
+
+/*youtube box*/
+.img2{
+    border-radius: 50%;
+    width: 550px;
+    height: 550px;
+    position: absolute;
+    left: 130px;
+}
+
+
+.circle{
+    width: 550px;
+    height: 550px;
+    border: 5px solid;
+    border-radius: 50%;
+    position: relative;
+    bottom: 250px;
+    left: -75px;
+    z-index: 0;
+
+    animation-name: circle;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-play-state: running;
+    animation-direction: alternate-reverse;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+    }
+    @keyframes circle{
+        0%{left: 1px;}
+        5%{right: 1px;}
+    }
+    .circle-back
+    {
+        width: 600px;
+        height: 680px;
+        position: relative;
+        top:240px;
+        left: 180px;
+        background-color: #cccccc34;
+        z-index: 0;
+        transform: translate(-50%, -50%);
+        border-radius: 0px 200px 200px 0;
+
+    }
+
+    .circle-box{
+        position: relative;
+        bottom: 700px;
+        animation: circlebox 2s linear 2s ;
+    }
+@keyframes circlebox
+{
+0%{
+    transform: translateX(-200px);
+}
+}    
+
+.img3{
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    position: relative;
+    top: 350px;
+    left: 30px;
+    z-index: 1;
+
+}
+
+/*background1*/
+.campaign{
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 153px;
+        height: 153px;
+        background-color: #36a1b0;
+        border-radius: 50%;
+        margin: 0 auto;
+        overflow: hidden;
+        z-index: 1;
+      }
+
+.cam1{
+    width: 80px;
+}
+
+.back1{
+    background-image: url(Images/counter-one-bg-img.png);
+    height: 800px;
+    width: auto;
+    opacity: 0.1;
+    position: relative;
+    bottom:1400px;
+}
+.log1{
+    position: relative;
+    bottom:2000px;
+    column-gap: 150px;
+}
+
+.content1{
+    position: relative;
+    left: 35px;
+    top: 20px;
+}
+.back2{
+    background-image: url(Images/fundraising-one-bg-img.jpg);
+    background-size: cover;
+    height: 500px;
+    width: auto;
+    position: relative;
+    bottom: 1850px;
+    opacity: 2;
+    z-index: 0;
+}
+.blk{
+    background-color: #232323;
+    height: 500px;
+    width: auto;
+    position: relative;
+    bottom: 2350px;
+    opacity: 0.7;
+    z-index: 1;
+}
+
+.box1{
+    text-align: center;
+    position: relative;
+    bottom: 2700px;
+    z-index: 1;
+}
+/*event box*/
+.back5{
+    background-image: url(Images/event-one-heart.png);
+    height: 200px;
+    width: 50%;
+    position: absolute;
+    bottom: -3120px;
+    left: 800px;
+    opacity: 0.1;
+}
+.eve1{
+    position: relative;
+    bottom: 1200px;
+    left: 150px;
+    
+}
+.eve2{
+    background-color:rgb(170, 25, 25) ;
+    color: white;
+    transform: rotate(90deg);
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    top: 52px;
+    left: 60px;
+}
+.charity{
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+}
+.event2{
+    position: relative;
+    bottom: 1650px;
+    left: 580px;
+}
+
+.cause1{
+    width: 350px;
+}
+
+.cards{
+    position: relative;
+    bottom: 1400px;
+    left: 10px;
+    padding-bottom: 50px;
+    }
+.card-content{
+    position: relative;
+    left: 500px;
+}
+.card-p{
+    position: relative;
+    left: 150px;
+    top: 10px;
+    color: rgb(154, 147, 147);
+    font-weight: bold;
+}
+
+.card-h{
+    font-size: 50px;
+}
+
+.card-center{
+    text-align: center;
+}
+
+.causes-one_btn{
+    text-align: center;
+    width: 100%;
+    background-color: #f2f2f2;
+    color: grey;
+    padding: 15px;
+    position: relative;
+    top: 2px;
+}
+.causes-one_btn:hover{
+    background-color:rgb(170, 25, 25) ;
+    color: white;
+}
+.s-box1{
+   width: 80px;
+   height: 30px;
+   position: relative;
+   bottom: 1180px;
+   left: 460px;
+   z-index: 1;
+   padding-top: 3px;
+   padding-left: 12px;
+   color: white;
+   font-size: small;
+}
+
+.s-box2{
+    width: 100px;
+    height: 30px;
+    position: relative;
+    bottom: 1210px;
+    left: 840px;
+    z-index: 1;
+    padding-top: 3px;
+    padding-left: 14px;
+    color: white;
+    font-size: small;
+ }
+
+ .s-box3{
+    width: 70px;
+    height: 30px;
+    position: relative;
+    bottom: 1240px;
+    left: 1260px;
+    z-index: 1;
+    padding-top: 3px;
+    padding-left: 17px;
+    color: white;
+    font-size: small;
+ }
+.don{
+    position: relative;
+    bottom: 740px;
+    right: 500px;
+    z-index: 1;
+    opacity: 0.2;
+    transition: 2s;
+
+    animation-name: heart;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+@keyframes heart{
+    0%{transform: translateX(-50%);} 
+    50%{transform: translateX(0%);}
+    100%{transform: translateX(-50%);}
+}
+
+.heart{
+    width: 400px;
+    height: 170px;
+}
+.form1{
+    position: relative;
+    bottom: 1350px;
+    right: 60px;
+    padding: 80px;
+    width: 750px;
+    
+}
+.don1{
+ width: 30%;  
+ position: relative;
+ bottom: 1320px; 
+ right: 100px;
+}
+.yelbox{
+    position: relative;
+    bottom: 1320px;
+    width: 800px;
+    height: 150px;
+    right: 100px;
+}
+
+.white-box{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: white;
+    position: relative;
+    left: -10px;
+    bottom: 25px;
+    z-index: 0;
+    }
+
+    .envolope_icon{
+    position: relative;
+    z-index: 1;
+    top: 10px;
+    left: 6px;
+    }
+    .map_icon{
+        position: relative;
+        z-index: 1;
+        top: 10px;
+        left: 6px;
+        }
+.back6{
+    background-image: url(Images/testimonial-one-bg-img-1.png);
+    width: 50%;
+    height: 500px;
+    opacity: 0.1;
+    position: relative;
+    bottom: 3500px;
+}
+.back7{
+    background-image: url(Images/testimonial-one-map-1.png);
+    width: 60%;
+    height: 500px;
+    position: relative;
+    bottom: 3500px;
+    opacity: 0.2;
+    z-index: 0;
+}
+
+.bg-1{
+    width: 100%;
+    height: 500px;
+    position: relative;
+    bottom: 3000px;
+
+}
+
+.test1{
+    width: 30%;
+    position: relative;
+    bottom: 3850px;
+    left: 50px;
+}
+
+.testcard1{
+    width: 550px;
+    padding: 15px;
+    position: relative;
+    bottom: 2000px;
+    left: 600px;
+}
+.testcard2{
+    width: 550px;
+    padding: 15px;
+    position: relative;
+    bottom: 2260px;
+    left: 1200px;
+}
+.testimg{
+    position: relative;
+    bottom: 50px;
+    left: 20px;
+}
+.brand1{
+    position: relative;
+    bottom: 60px;
+    left: 200px;
+    opacity: 0.3;
+}
+.brand2{
+    position: relative;
+    bottom: 60px;
+    left: 320px;
+    opacity: 0.3;
+}
+.brand3{
+    position: relative;
+    bottom: 60px;
+    left: 440px;
+    opacity: 0.3;
+}
+.brand4{
+    position: relative;
+    bottom: 60px;
+    left: 560px;
+    opacity: 0.3;
+}
+.brand5{
+    position: relative;
+    bottom: 60px;
+    left: 680px;
+    opacity: 0.3;
+}
+.hand{
+    position: relative;
+    top: 60px;
+    opacity: 0.1;
+}
+.belt{
+    height: 200px;
+    position: relative;
+    bottom: 4710px;
+}
+.blog1{
+width: 300px;
+position: relative;
+left: 100px;
+bottom: 1000px;
+}
+
+.bcard{
+    position: relative;
+    bottom: 3500px;
+    justify-content: center;
+    left: 50px;
+}
+.blog_content{
+    position: relative;
+    left: 550px;
+    margin-bottom: 50px;
+    bottom: 1050px;
+}
+
+.brand11{
+    position: relative;
+    bottom: 60px;
+    left: 200px;
+    opacity: 1;
+}
+
+.myswiper{
+    display: flex;
+    position: relative;
+    bottom: 2000px;
+    left: 150px;
+    z-index: 1;
+}
+
+.item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 10px 1px #ccc;
+    height: 100px;
+    margin: 10px;
+  }
+
+
+.copyright_sec{
+position: relative;
+left: 70px;
+top: 30px;
+}
+
+.social{
+    position: relative;
+    left: 800px;
+    display: flex;
+    column-gap: 30px;
+    align-items: center;
+    padding: 13px 40px 13px;
+    margin-right: 30px;
+    bottom: 20px;
+}   
+
+  
+  @keyframes slidereffect {
+      0% {
+          background-position: center bottom;
+          background-size: 100%;
+      }
+  
+      100% {
+          background-position: center bottom;
+          background-size: 150%;
+      }
+  }
+
+  .main{
+    position: relative;
+    height: 500px;
+    width: 500px;
+    background-color:transparent;
+    bottom: 4200px;
+    left: 500px;
+    z-index: 0;
+}
+
+  .slidesection{
+    position: relative;
+    top: 100px;
+    left: 180px;
+    height: 300px;
+    width: 600px;
+    justify-content: center;
+    z-index: 0;
+   
+  }
+  .slide_img{
+    width: 100px;
+    border-radius: 50%;
+    margin-bottom: 70px;
+    position: relative;
+    right: 150px;
+    bottom: 50px;
+    z-index: 1;
+  }
+  
+  .Tname{
+    color: #191E47;
+  }
+
+  .slider1{
+    position: relative;
+    bottom: 150px;
+    height: 300px;
+    width: 600px;
+    background-color: white;
+    border-radius: 20px;
+    z-index: 1;
+  }
+
+  .star{
+    position: relative;
+    bottom: 150px;
+    left: 210px;
+    height: 20px;
+    width: 50px;
+  }
+
+  .star_img{
+    width: 25px;
+    height: 25px;
+  }
+
+  .t_name{
+    position: relative;
+    bottom: 130px;
+    left:210px;
+    text-align: justify;
+  }
+
+  .t-content{
+    color: rgba(0, 0, 0, 0.444);
+    position: relative;
+    bottom:120px;
+    text-align: justify;
+  }
+
+  
+.main-btn{
+
+animation-name: btn;
+animation-duration: 2s;
+animation-direction: normal;
+  }
+
+  @keyframes btn{
+    0%{
+        transform: translateY(50%);  
+    }
+    
+
+  }
+
+.h-text{
+    font-size: 120px;
+    line-height: 100px;
+  }
+
+.discover-btn{
+padding-left: 40px;
+padding-right: 40px;
+padding-top: 15px;
+padding-bottom: 15px;
+color: white;
+font-weight: bold;
+border: 0px;
+  }
+
+  .donate-btn{
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: white;
+    font-weight: bold;
+    border: 0px;
+    background-color: rgb(170, 25, 25);
+      }
+
+      .main-event{
+        position: relative;
+        bottom: 1100px;
+        left: 700px;
+        height: 500px;
+        z-index: 1;
+        }
+      
+      .slider-event{
+        position: relative;
+        height: 500px;
+      
+      
+      }
+      
+      .date-event{
+        background-color:rgb(170, 25, 25) ;
+        color: white;
+        transform: rotate(90deg);
+        position: relative;
+        left: 75px;
+        height: 40px;
+        width: 177px;
+        top: 68px;
+        font-size: 16px;
+        text-align: center;
+        padding-top: 5px;
+       }
+      
+       .bg-heart{
+        background-image: url(Images/event-one-shape-1.png);
+        background-repeat: no-repeat;
+        height: 600px;
+        z-index: 0;
+        width: 500px;
+        position: relative;
+        right: 50px;
+      }
+      
+      .event-content{
+        position: relative;
+        top: 150px;
+        left: 200px;
+        width: 450px;
+      }
+      
+      .redbox{
+        background-color: rgb(170, 25, 25);
+        height: 600px;
+        width: 100%;
+        position: relative;
+        bottom: 545px;
+        left: 950px;
+      }
+
+      
